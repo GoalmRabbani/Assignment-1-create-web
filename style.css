@@ -217,3 +217,33 @@ span{
     border: none;
 
 }
+
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 100px 140px;
+}
+.addr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.foolP{margin-bottom:20px;}
+.call,.web{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    /* margin-bottom: 0; */
+    
+}
+.social{
+    text-align: center;
+    column-gap: 24px;
+}
+.lest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
