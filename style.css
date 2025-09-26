@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+.merriweather-Font {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+
+
+header {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url("resources/Banner\ Image.png");
+    height: 600px;
+    width: 100%;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 100px 244px;
+    border-radius: 16px;
+}
+
+.banner-subTittle {
+    font-size: 32px;
+    color: white;
+}
+
+.banner-tittle {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* ----------------- */
+
+/* Main section  */
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.all-category {
+    margin: 120px 120px;
+    text-align: center;
+}
+
+.off60 {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.all-categorySubTittle {
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.all-categoryTittle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* ------------------ */
+
+/* Welcome Section */
+.welcome-img {
+    background-image: url("resources/Vectorrr.png");
+    height: 600px;
+    width: 100%;
+
+}
+
+.welcome-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 125px;
+    column-gap: 60px;
+}
+
+.welcome-text {
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.welcomeTittle {
+    font-size: 64px;
+
+}
+
+
+/* Hotel Place Date Section */
+.hotel-date {
+    text-align: center;
+    margin: 120px 0px;
+    background: linear-gradient(#f0d7d7, #ffff);
+    padding: 100px 0px;
+    border-radius: 15px;
+    border-top: #f59999 5px solid;
+}
+
+.hotel-date p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+/* Coming Soon Style */
+.coming-soon {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.coming-soonText {
+    max-width: 420px;
+}
+
+.soonSubTittle {
+    margin-bottom: 0px;
+}
+
+/* --------shared ---------------- */
+.soonTittle,.giftTittle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.SoonImg {
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 40px;
+
+}
+/* ---------------------- */
+
+
+
+/* Holyday Section Style  */
+.holyday {
+    margin: 120px 0;
+    text-align: center;
+}
+
+.holydayTittle,.subscribeTittle {
+    font-size: 71px;
+    font-weight: bold;
+}
+
+.holydayImg {
+    background-color: #f59999;
+    height: 600px;
+}
+
+/* Gift style */
+
+
+/* subscribe section style  */
+.subscribe{
+    text-align: center;
+    margin: 120px 0px;
+    background-color: #e7caca;
+    padding: 80px 200px;
+    border-radius: 15px;
+    /* width: 1320px; */
+
+}
+.mailBox{
+    border-radius: 1px;
+}
+.mailBox input{
+    padding: 15px;
+    border: none;
+    
+}
+.email{
+    border-radius: 10px 0 0 10px;
+}
+.submit{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 0 10px 10px 0px;
+
+}
+
+
+/* Shared style */
+span{
+    color: #FF0000;
+}
+
+.soonDescript,.holydayDescrip,.giftDescrip,.subscribeDescrip {
+    color: gray;
+    /* font-size: 24px; */
+}
+
+.btn {
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+}
