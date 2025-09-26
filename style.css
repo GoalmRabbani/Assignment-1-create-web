@@ -133,7 +133,8 @@ main {
 }
 
 /* --------shared ---------------- */
-.soonTittle,.giftTittle {
+.soonTittle,
+.giftTittle {
     font-size: 48px;
     font-weight: bold;
 }
@@ -144,6 +145,7 @@ main {
     padding: 40px;
 
 }
+
 /* ---------------------- */
 
 
@@ -154,21 +156,47 @@ main {
     text-align: center;
 }
 
-.holydayTittle,.subscribeTittle {
+.holydayTittle,
+.subscribeTittle {
     font-size: 71px;
     font-weight: bold;
 }
 
 .holydayImg {
-    background-color: #f59999;
-    height: 600px;
+    background-image: url("resources/Rectangle\ 2.png");
+    height: 250px;
+    background-repeat: no-repeat;
 }
+
+.towImg {
+    display: flex;
+    align-items: end;
+    padding-top: 50px;
+    position: relative;
+}
+
+.fiftyDiscount {
+    position: absolute;
+    margin-left: 725px;
+
+}
+
+.imgBox img {
+    margin-bottom: -190px;
+    width: 90%;
+}
+
+.girl {
+    margin-bottom: -4px;
+    margin-left: 95px;
+}
+
 
 /* Gift style */
 
 
 /* subscribe section style  */
-.subscribe{
+.subscribe {
     text-align: center;
     margin: 120px 0px;
     background-color: #e7caca;
@@ -177,18 +205,22 @@ main {
     /* width: 1320px; */
 
 }
-.mailBox{
+
+.mailBox {
     border-radius: 1px;
 }
-.mailBox input{
+
+.mailBox input {
     padding: 15px;
     border: none;
-    
+
 }
-.email{
+
+.email {
     border-radius: 10px 0 0 10px;
 }
-.submit{
+
+.submit {
     background-color: #FF0000;
     color: #FFFFFF;
     font-weight: 700;
@@ -198,11 +230,14 @@ main {
 
 
 /* Shared style */
-span{
+span {
     color: #FF0000;
 }
 
-.soonDescript,.holydayDescrip,.giftDescrip,.subscribeDescrip {
+.soonDescript,
+.holydayDescrip,
+.giftDescrip,
+.subscribeDescrip {
     color: gray;
     /* font-size: 24px; */
 }
@@ -219,30 +254,38 @@ span{
 }
 
 
-footer{
+footer {
     background-color: black;
-    color:white;
+    color: white;
     padding: 100px 140px;
 }
-.addr{
+
+.addr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-.foolP{margin-bottom:20px;}
-.call,.web{
+
+.foolP {
+    margin-bottom: 20px;
+}
+
+.call,
+.web {
     display: flex;
     align-items: center;
     column-gap: 5px;
     /* margin-bottom: 0; */
-    
+
 }
-.social{
+
+.social {
     text-align: center;
     column-gap: 24px;
 }
-.lest{
+
+.lest {
     display: flex;
     align-items: center;
     justify-content: space-between;
